@@ -1,0 +1,14 @@
+[project]
+name = "mcp-server-now"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115.12",
+    "mcp[cli]>=1.6.0",
+    "uvicorn>=0.34.2",
+    "google-generativeai>=0.8.3",
+    "python-dotenv>=1.0.1",
+    "httpx>=0.28.1",
+]
